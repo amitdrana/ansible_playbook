@@ -1,0 +1,8 @@
+---
+- hosts: win
+  tasks: 
+   - name: window machine shutdown
+     win_shell: "shutdown.exe /s" 
+    
+
+

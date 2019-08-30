@@ -1,0 +1,7 @@
+---
+- hosts: win
+      #    win_command: cleanmgr /s /verylowdisk /sagerun:11 /autoclean
+  roles:
+    - { role: deekayen.cleanmgr }
+
+   
